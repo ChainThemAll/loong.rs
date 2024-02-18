@@ -1,0 +1,18 @@
+[package]
+name = "loong_game_rs"
+version = "0.1.0"
+authors = ["alain <zhengze01@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+piston = "0.52.0"
+piston_window = "0.112.0"
+piston2d-graphics = "0.37.0"
+pistoncore-glutin_window = "0.66.0"
+piston2d-opengl_graphics = "0.74.0"
+colorsys = "0.5.7"
+image = "0.23"
+lazy_static = "1.4.0"
+dirs = "3.0.1"
+piston2d-sprite = "0.61.0"
+loong_ctrl = { path = "../ctrl" }
